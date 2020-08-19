@@ -142,11 +142,12 @@ func convertPullPolicy(s string) engine.PullPolicy {
 	switch strings.ToLower(s) {
 	case "always":
 		return engine.PullAlways
-	case "if-not-exists":
-		return engine.PullIfNotExists
-	case "never":
-		return engine.PullNever
+	// case "if-not-exists":
+	// 	return engine.PullIfNotExists
+	// case "never":
+	// 	return engine.PullNever
 	default:
-		return engine.PullDefault
+		// return engine.PullDefault
+		return engine.PullIfNotExists
 	}
 }
