@@ -15,7 +15,7 @@ import (
 	"github.com/drone/runner-go/pipeline/runtime"
 )
 
-const placeholderImage = "drone/placeholder:1"
+const placeholderImage = "registry.cn-beijing.aliyuncs.com/k7scn/drone-placeholder:1"
 
 func createStep(spec *resource.Pipeline, src *resource.Step) *engine.Step {
 	dst := &engine.Step{

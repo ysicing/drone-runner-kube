@@ -19,7 +19,7 @@
       "environment": {},
       "image": "drone/git:latest",
       "name": "clone",
-      "placeholder": "drone/placeholder:1",
+      "placeholder": "registry.cn-beijing.aliyuncs.com/k7scn/drone-placeholder:1",
       "resources": {},
       "run_policy": "always",
       "volumes": [
@@ -43,7 +43,7 @@
       "environment": {},
       "image": "docker.io/library/mysql:latest",
       "name": "mysql",
-      "placeholder": "drone/placeholder:1",
+      "placeholder": "registry.cn-beijing.aliyuncs.com/k7scn/drone-placeholder:1",
       "resources": {},
       "volumes": [
         {
@@ -65,7 +65,7 @@
       "environment": {},
       "image": "docker.io/library/redis:latest",
       "name": "redis service",
-      "placeholder": "drone/placeholder:1",
+      "placeholder": "registry.cn-beijing.aliyuncs.com/k7scn/drone-placeholder:1",
       "resources": {},
       "volumes": [
         {
@@ -93,7 +93,7 @@
       "environment": {},
       "image": "docker.io/library/golang:latest",
       "name": "build",
-      "placeholder": "drone/placeholder:1",
+      "placeholder": "registry.cn-beijing.aliyuncs.com/k7scn/drone-placeholder:1",
       "resources": {},
       "volumes": [
         {
